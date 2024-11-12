@@ -1,0 +1,59 @@
+#tasks {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+h1 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 i {
+  margin-left: 10px;
+}
+
+#tasks li {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  text-align: center;
+  justify-content: center;
+  font-size: 23px;
+}
+
+#tasks li:hover {
+  background-color: #f0f0f0;
+}
+
+.add-task-link {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 20px auto;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.add-task-link:hover {
+  background-color: #45a049;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+
